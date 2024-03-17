@@ -57,7 +57,7 @@ def the_game():
     else:
         print("Please enter a valid choice")
     
-    # Ask if the user wants to play again game
+    # Ask if the user wants to play again
     play_again = input("\nDo you want to play again? Yes or No: ").lower()
     if play_again == "yes":
         the_game()
